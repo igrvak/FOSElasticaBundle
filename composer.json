@@ -11,6 +11,9 @@
         { "name": "Richard Miller", "email": "richard.miller@limethinking.co.uk" },
         { "name": "Jeremy Mikola", "email": "jmikola@gmail.com" }
     ],
+    "replace": {
+        "friendsofsymfony/elastica-bundle": "self.version"
+    },
     "require": {
         "php": ">=5.3.2",
         "symfony/framework-bundle": "~2.3",
